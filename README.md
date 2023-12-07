@@ -1,6 +1,5 @@
-# prework-study-guide
+# Prework Study Guide
 A study guide for course pre-work
-# <Your-Project-Title>
 
 ## Prework Study Guide Webpage
 I have created this guide as a resource to keep my notes in one place, as well as making it universally available to any other prospective bootcamp students who ould benefit from some written out definitions and examples. Creating this webpage has also allowed me the opportunity to put my notes into action, therefore starting to cement these new skills in my brain as I see them work/debug my code. 
