@@ -21,8 +21,8 @@
           <li>The head element contains information about the webpage</li>
           <li>The code in the head element is not visible to webpage viewers once deployed</li>
           <li>The head element contains meta and title information</li>
-            <li> -> Meta component:</li>
-            <li> -> Title component:</li>
+            <li>links to referenced style sheets can also be placed in the head section and will be applied to entire html doc </li>
+            <li>meta information includes character set (UTF-8 seems standard) and other important informatino for the browser to display your information correctly.</li>
           <li>The body element represents the visible content shown to the user</li>
           <li>.html</li>
         </ul>
@@ -48,44 +48,33 @@
           <li>git add -a: stages all edited files/revisions for commiting</li>
           <li>git restore --staged'file-name': to unstage a file to commit</li>
           <li>git commit -m 'comment/description': commits all changes added, effectively saves. Do not switch branches without commiting changes</li>
+          <li>git pull origin main: pull any changes from main branch down to your local branch</li>
+          <li>git push origin branch-name: submits a pull request to main branch to review and merge with changes made. Next you should visit githib.com to Compare the files/merge if everything looks okay.</li>
         </ul>
       </section>
      <section class="card" id="javascript-section">
       <h2>JavaScript</h2>
       <ul>
+        <li>'for' loop: keyword 'for', three-part conditional statement, code block</li>
+        <li>Example:</li>
+        <li>define variable array; 0 indexed</li>
+        <li>var shapes = ["triangle", "square", "pentagon", "circle"];</li>
+        <li>three conditions:  
+          var x = 0;   
+          x < shapes.length;   
+          x++; </li>
+        <li> * x++ is shorthand for x+1 *</li>
         <li> ... </li>
-        <li> ... </li>
-        <li> ... </li>
-          ## notes to keep:
-            var topic = 'HTML';
-          
-            //
-           define variable array; 0 indexed
-            var shapes = ["triangle", "square", "pentagon", "circle"];
-          
-            for loop: keyword 'for', three-part conditional statement, code block
-            three conditions:
-            var x = 0
-            x < shapes.length
-            x++
-            for (var x = ; x <>= ; x+- ;) {
-              action // code block
-          } 
-          for (var x = 0; x < shapes.length; x++) {
-              console.log(shapes[x])
-          }
-          
-          function helloWorld (parameters) {
-              //code block // i.e. console.log('Hello world! I am a function!')
-          }
-          control flow!!
-          
-         
-        <li>.js</li>
+        <li>Example of a function:</li>
+        <li>function helloWorld (parameters or none if empty) {
+          //code block; i.e. console.log('Hello world! I am a function!')
+        }</li>
+        <li>Control Flow is especially important. This means that one must be aware that code reads like humans do, so whatever it reads first it will execute. Make sure all essential information that will be rederenced in any commands is located before said command or you will be faced with a syntax error.  </li>
+         <li>.js</li>
       </ul>
      </section>
      <section class="card" id="notes-to-self">
-      <h2>More notes to self:</h2>
+      <h2>More tiny notes to self:</h2>
       <ul>
         <li>cd = change directory</li>
         <li>touch = add/create</li>
@@ -97,8 +86,9 @@
 
     <footer>
       <p>I can code!</p>
-      <p>bp</p>
+      <section class = 'signature'>with love, bp</section> 
     </footer>
+   
   <script src="./assets/script.js"></script>
   </body>
 </html>
